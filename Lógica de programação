@@ -18,3 +18,72 @@ if (idade>= 18) {
     alert('Pode tirar a habilitação!')
 }
 
+////////Aula 01.2
+
+Nesta aula, aprendemos sobre condicionais e concatenação, especificamente sobre o comando else e como usar comentários no código.
+
+O else é usado para criar um "contraponto" ao if, ou seja, ele define o que acontece quando a condição do if não é satisfeita.
+
+Também aprendemos sobre a importância de usar comentários no código para explicar o que cada parte do código faz, tornando-o mais fácil de entender e de manter.
+
+Para escrever um comentário em JavaScript, usamos o sinal de barra dupla //. Tudo que estiver depois do // será ignorado pelo interpretador JavaScript.
+
+////////Aula 02.2
+
+(string = texto)
+
+Nessa aula, aprendemos sobre a importância de usar Template Strings para concatenar textos com variáveis e números em JavaScript.
+
+Vimos que, ao usar aspas simples, o JavaScript interpreta o código como um texto, e não como uma variável. Para resolver isso, usamos as crases (`) e o sinal de cifrão ($) seguido da variável entre chaves {}.
+
+Com isso, conseguimos criar mensagens mais dinâmicas, onde o valor da variável é inserido automaticamente na mensagem, sem precisarmos alterá-la manualmente.
+
+Essa técnica é muito útil para evitar acoplamento no código, ou seja, a dependência de uma parte do código em outra.
+
+Lembre-se: usar Template Strings torna o código mais flexível e fácil de manter!
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Desafios
+01. Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+
+fimSemana = prompt('Qual é o dia da semana?');
+
+if (fimSemana == 'sabado') {
+alert('Bom fim de semana!');
+} if (fimSemana == 'domingo') {
+alert('Bom fim de semana!');`} else {
+alert('Boa semana');
+}
+
+02.  Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+
+if (numeroPositivo > 0) {
+alert('O número é positivo');
+} else {
+alert('O número é negativo');
+}
+
+
+03. Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+
+pontuação = 105;
+if (pontosJogo >= 100 {
+console.log('Parabéns, você venceu!');
+} else {
+console.log('Tente novamente para ganhar');
+}
+
+04. Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
+let valorSaldo = 1000;
+alert(`Seu saldo é de ${valorSaldo}`);
+
+05. Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
+let nomeUsuario = prompt('Qual o seu nome');
+alert(`Boas vindas ${nomeUsuario}`);
