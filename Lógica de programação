@@ -87,3 +87,50 @@ alert(`Seu saldo é de ${valorSaldo}`);
 
 let nomeUsuario = prompt('Qual o seu nome');
 alert(`Boas vindas ${nomeUsuario}`);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////Aula 03.2
+Nessa aula, aprendemos a dar dicas para o jogador do nosso jogo de adivinhar o número secreto.
+
+Primeiro, criamos uma condição para verificar se o chute do jogador é maior ou menor que o número secreto.
+
+Depois, usamos o alert() para mostrar uma mensagem informando se o número secreto é maior ou menor que o chute.
+
+Por fim, vimos que o código está funcionando como esperado, mas ainda precisamos fazer algumas modificações para que o jogo continue até que o jogador acerte o número secreto.
+
+
+////////Aula 03.3
+Nessa aula, aprendemos sobre o loop while em JavaScript, que permite executar um bloco de código repetidamente enquanto uma determinada condição for verdadeira.
+
+Vimos como usar o while para criar um jogo de adivinhação, onde o jogador precisa adivinhar um número secreto. O loop continua pedindo ao jogador para digitar um número até que ele adivinhe o número secreto.
+
+Também aprendemos sobre a importância da indentação do código para melhorar a legibilidade e organização do código.
+
+E por fim, vimos como usar operadores de comparação, como !=, == e >, para comparar variáveis e números dentro do código.
+
+
+////////Aula 03.4
+Primeiro, criamos uma variável chamada tentativas e a inicializamos com o valor 1, pois a primeira tentativa já é realizada ao iniciar o jogo.
+
+Depois, dentro do bloco else, onde o jogador erra o chute, incrementamos a variável tentativas em 1, utilizando a notação tentativas++, que é uma forma mais concisa de escrever tentativas = tentativas + 1.
+
+Por fim, ao acertar o número secreto, exibimos uma mensagem informando o número secreto e quantas tentativas foram necessárias para descobri-lo, utilizando a variável tentativas dentro de um template string.
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Desafios
+Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+
+Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+
+Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+
+Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
