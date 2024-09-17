@@ -158,3 +158,46 @@ let contador = prompt('Digite um número para a contagem progressiva');
 while (contador <= 0) {
 console.log(contador);
 contador++;
+
+
+////////Aula 04.2
+Nessa aula, aprendemos sobre o break, uma ferramenta poderosa para controlar loops. Ele nos permite interromper o loop quando uma condição específica é satisfeita.
+
+Imagine o break como um botão "pausar" para o loop. Quando o break é executado, o loop para de executar e o código continua a partir do ponto seguinte ao loop.
+
+Também aprendemos a usar o break para criar uma condição especial dentro de um loop. No nosso jogo, usamos o break para parar o loop quando o jogador adivinha o número secreto.
+
+Por fim, vimos como usar if e else para personalizar mensagens com base em diferentes condições. No nosso jogo, usamos if e else para exibir mensagens diferentes dependendo do número de tentativas do jogador.
+
+////////Aula 04.3
+Nessa aula, aprendemos uma maneira de simplificar o código usando o operador ternário. Ele é como um atalho para escrever um bloco if...else de forma mais compacta e elegante.
+
+Imagine que você precisa decidir se uma palavra deve ser usada no singular ou no plural, dependendo de uma condição. O operador ternário te permite fazer isso em uma única linha!
+
+Por exemplo, se você tem uma variável tentativas e quer escrever "tentativa" ou "tentativas" dependendo do valor dela, você pode usar:
+
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+Essa linha de código é equivalente a um bloco if...else completo, mas muito mais concisa!
+
+O operador ternário é uma ferramenta poderosa que você encontrará em muitos códigos JavaScript. Ele torna o código mais legível e eficiente, além de ser uma ótima maneira de evitar repetições.
+
+Lembre-se: o importante é que o código seja claro e fácil de entender.
+
+
+////////Aula 04.4
+Nessa aula, aprendemos como gerar números aleatórios em JavaScript usando a função Math.random().
+
+Vimos que a função Math.random() retorna um número pseudo aleatório entre 0 (inclusive) e 1 (exclusivo). Para gerar um número aleatório entre 0 e 9, multiplicamos o resultado de Math.random() por 10 e usamos a função parseInt() para obter apenas a parte inteira do número.
+
+Para gerar um número aleatório entre 1 e 10, somamos 1 ao resultado da multiplicação.
+
+////////Aula 04.5
+Nessa aula, aprendemos a usar o gerador de números aleatórios em JavaScript para criar um jogo de adivinhação.
+
+Primeiro, revisamos como a função Math.random() funciona e como podemos usá-la para gerar números aleatórios entre 0 e 1.
+
+Depois, aprendemos a multiplicar esse número por 10 e usar a função parseInt() para obter um número inteiro entre 0 e 9.
+
+Para gerar um número entre 1 e 10, somamos 1 ao resultado da multiplicação.
+
+Em seguida, ampliamos o jogo para gerar números entre 1 e 100, ajustando a multiplicação para 100 e alterando o prompt para informar o novo intervalo.
